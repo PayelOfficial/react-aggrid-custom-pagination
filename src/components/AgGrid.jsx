@@ -27,15 +27,6 @@ const AgGridTable = () => {
     { headerName: 'Title', field: 'title' },
     { headerName: 'Body', field: 'body' },
     { headerName: 'User ID', field: 'userId' },
-    {
-      field: 'ID',
-      minWidth: 100,
-      editable: true,
-      cellRenderer: function (params) {
-        console.log('params', params);
-        return params?.data?.id;
-      },
-    },
   ]);
 
   const [gridApi, setGridApi] = useState(null);
