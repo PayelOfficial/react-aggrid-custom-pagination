@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      {/* <h1>Ag Grid Custom pagination</h1> */}
+      <h1>Ag Grid Custom pagination</h1>
       <AgGridTable />
     </>
   );
